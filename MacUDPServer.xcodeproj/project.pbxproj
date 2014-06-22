@@ -18,6 +18,7 @@
 		C3BE640F1955ED330045CBAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BE63EE1955ED330045CBAD /* Cocoa.framework */; };
 		C3BE64171955ED330045CBAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3BE64151955ED330045CBAD /* InfoPlist.strings */; };
 		C3BE64191955ED330045CBAD /* MacUDPServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BE64181955ED330045CBAD /* MacUDPServerTests.m */; };
+		C3BE64241955EDE30045CBAD /* UDPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BE64231955EDE30045CBAD /* UDPServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		C3BE64141955ED330045CBAD /* MacUDPServerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacUDPServerTests-Info.plist"; sourceTree = "<group>"; };
 		C3BE64161955ED330045CBAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3BE64181955ED330045CBAD /* MacUDPServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacUDPServerTests.m; sourceTree = "<group>"; };
+		C3BE64221955EDE30045CBAD /* UDPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPServer.h; sourceTree = "<group>"; };
+		C3BE64231955EDE30045CBAD /* UDPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				C3BE64001955ED330045CBAD /* AppDelegate.h */,
 				C3BE64011955ED330045CBAD /* AppDelegate.m */,
+				C3BE64221955EDE30045CBAD /* UDPServer.h */,
+				C3BE64231955EDE30045CBAD /* UDPServer.m */,
 				C3BE64031955ED330045CBAD /* MainMenu.xib */,
 				C3BE64061955ED330045CBAD /* Images.xcassets */,
 				C3BE63F51955ED330045CBAD /* Supporting Files */,
@@ -253,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3BE64021955ED330045CBAD /* AppDelegate.m in Sources */,
+				C3BE64241955EDE30045CBAD /* UDPServer.m in Sources */,
 				C3BE63FB1955ED330045CBAD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
